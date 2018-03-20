@@ -1,9 +1,9 @@
 # docker.io/paperspace/tensorflow-python
 # 0.0.2
 
-FROM gcr.io/tensorflow/tensorflow:latest-gpu
+FROM gcr.io/tensorflow/tensorflow:1.5.0-gpu
 # Alternate pinned source:
-# FROM docker.io/paperspace/tensorflow:latest-gpu
+# FROM docker.io/paperspace/tensorflow:1.5.0-gpu
 
 RUN mv /usr/local/bin/pip /usr/local/bin/pip_2
 
